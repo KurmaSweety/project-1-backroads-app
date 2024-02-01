@@ -7,10 +7,7 @@ const Footer=()=> {
     <footer className="section footer">
       <PageLinks parentClass='footer-links' itemClass='footer-link'/>
       <ul className="footer-icons">
-        {socialLinks.map((link)=>{
-          return
-            <SocialLinks key={link.id} {...link} itemClass="footer-icon"/>
-        })}
+         <h1>App</h1>
       </ul>
        
       <p className="copyright">
