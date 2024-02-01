@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SocialLinks = ({id,href,icon},itemClass) => {
+const SocialLinks = ({itemClass,href,icon}) => {
   return (
-    <li key={id}>
+    <li>
     <a href={href} target="_blank" className= {itemClass}>
     <i className= {icon}></i>
     </a>
